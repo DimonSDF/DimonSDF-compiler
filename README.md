@@ -1,6 +1,8 @@
-# [Компилятор](https://DimonSDF.github.io/DimonSDF-compiler/)
+# [Компилятор](https://dimonsdf.github.io/DimonSDF-compiler/)
 
-Компилирует ассемблер в коды сохранения для [компьютера Чубрика](https://github.com/chubrik/LogicArrows/blob/main/computer.md) в [Стрелочках](https://logic-arrows.io/).
+Модифицированный компилятор [Гулга](https://github.com/GulgDev/chubrik-compiler).
+<br>
+Нужен для прогрмаммирования и работы с моим [компьютером](https://github.com/DimonSDF/Logic-Arrows/blob/main/Компьютер.md) в [Стрелочках](https://logic-arrows.io/login)
 
 ## Принцип работы
 

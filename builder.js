@@ -48,7 +48,7 @@ export function buildDisk(bytes) {
             }
         }
     }
-    gameMap.paste(bottom, 0, byteCount / 2 + 2);
+    gameMap.paste(bottom, 1, byteCount / 2 + 1);
 
     return gameMap.save();
 }

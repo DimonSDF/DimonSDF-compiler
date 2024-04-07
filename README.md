@@ -1,4 +1,4 @@
-# [Компилятор](https://gulgdev.github.io/chubrik-compiler/)
+# [Компилятор](https://DimonSDF.github.io/DimonSDF-compiler/)
 
 Компилирует ассемблер в коды сохранения для [компьютера Чубрика](https://github.com/chubrik/LogicArrows/blob/main/computer.md) в [Стрелочках](https://logic-arrows.io/).
 

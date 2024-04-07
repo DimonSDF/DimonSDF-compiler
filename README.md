@@ -2,7 +2,7 @@
 
 Модифицированный компилятор [Гулга](https://github.com/GulgDev/chubrik-compiler).
 <br>
-Нужен для прогрмаммирования и работы с моим [компьютером](https://github.com/DimonSDF/Logic-Arrows/blob/main/Компьютер.md) в [Стрелочках](https://logic-arrows.io/login)
+Нужен для программирования и работы с моим [компьютером](https://github.com/DimonSDF/Logic-Arrows/blob/main/Компьютер.md) в [Стрелочках](https://logic-arrows.io/login)
 
 ## Принцип работы
 

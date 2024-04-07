@@ -16,7 +16,7 @@ export function buildDisk(bytes) {
     
     byteCount = bytes.length;
 
-    gameMap.paste(top, 0, -17);
+    gameMap.paste(top, 20, 0);
 
     for (let row = 0; row < byteCount / 4; ++row) {
         let bytes_row = bytes.splice(0, 4);

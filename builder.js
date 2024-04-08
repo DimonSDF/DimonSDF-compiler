@@ -32,16 +32,16 @@ export function buildDisk(bytes) {
             for (let j = 0; j < 4; ++j) {
                 switch (byte & 0b11) {
                     case 0:
-                        gameMap.setArrow(x + j, y, 1, -1);
+                        gameMap.setArrow(x + j, y, 1, 1);
                         break;
                     case 1:
-                        gameMap.setArrow(x + j, y, 7, -1);
+                        gameMap.setArrow(x + j, y, 7, 1);
                         break;
                     case 2:
-                        gameMap.setArrow(x + j, y, 7, -1, true);
+                        gameMap.setArrow(x + j, y, 7, 1, true);
                         break;
                     default:
-                        gameMap.setArrow(x + j, y, 8, -1);
+                        gameMap.setArrow(x + j, y, 8, 1);
                 }
 
                 byte >>= 2;

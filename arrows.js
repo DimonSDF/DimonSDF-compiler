@@ -35,6 +35,15 @@ export class GameMap {
             this.load(save);
     }
 
+    setArrow(x, y, type, rotation, flipped) {
+        Object.assign(this.getArrow(x, y), { type, rotation, flipped });
+    }
+
+    getArrow(x, y) {
+        const chunk = this.getChunkByArrowCoordinates(x, y);
+        return chunk.getArrow(x - chunk.x * CHUNK_SIZE, y - chunk.y * CHUNK_SIZE);
+    }
+
     getChunkByArrowCoordinates(x, y) {
         const negativeCorrectionX = x < 0 ? 1 : 0;
         const negativeCorrectionY = y < 0 ? 1 : 0;

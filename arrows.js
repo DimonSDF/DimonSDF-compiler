@@ -62,16 +62,6 @@ export class GameMap {
         return chunk;
     }
 
-    paste(map, x, y) {
-        for (const chunk of map.chunks)
-            for (let i = 0; i < CHUNK_SIZE; ++i)
-                for (let j = 0; j < CHUNK_SIZE; ++j) {
-                    const arrow = chunk.arrows[i + j * CHUNK_SIZE];
-                    if (arrow.type !== 0)
-                        this.setArrow(chunk.x * CHUNK_SIZE + i + x, chunk.y * CHUNK_SIZE + j + y, arrow.type, arrow.rotation, arrow.flipped);
-                }
-    }
-
     load(save) {
         const buffer = atob(save).split("").map((c) => c.charCodeAt(0));
 

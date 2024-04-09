@@ -3,6 +3,7 @@ const Args = {
     B: 0x1,
     C: 0x2,
     D: 0x3,
+    ZERO: 0x4,
     BYTE: 0x5
 };
 
@@ -27,14 +28,17 @@ class Command {
         this.opcode = opcode;
     }
 
-    match(instruction, args) {
+      match(instruction, args) {
         const argc = this.args.length;
         let match = this.instruction === instruction && argc === args.length;
         if (match)
             for (let i = 0; i < argc; ++i) {
                 const argType = this.args[i];
                 const { type, value } = args[i];
-
+                if (argType !== type && !(argType === Args.ZERO && value === 0)) {
+                    match = false;
+                    break;
+                }
             }
         return match;
     }

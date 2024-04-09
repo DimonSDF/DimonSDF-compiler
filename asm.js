@@ -308,10 +308,10 @@ const commands = [
     new Command("xor", [Args.D, Args.A], 0xF3),
     new Command("xor", [Args.D, Args.B], 0xF7),
     new Command("xor", [Args.D, Args.C], 0xFB),
-        new Command("clr", [Args.A], 0xC0),
-        new Command("clr", [Args.B], 0xC5),
-        new Command("clr", [Args.C], 0xCA),
-        new Command("clr", [Args.D], 0xCF),     
+        new Command("clr", [Args.A], 0xF0),
+        new Command("clr", [Args.B], 0xF5),
+        new Command("clr", [Args.C], 0xFA),
+        new Command("clr", [Args.D], 0xFF),     
 ];
 
 class Token {

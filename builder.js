@@ -35,10 +35,10 @@ export function buildDisk(bytes) {
                         gameMap.setArrow(x + j, y, 1, 1);
                         break;
                     case 1:
-                        gameMap.setArrow(x + j, y, 7, 1);
+                        gameMap.setArrow(x + j, y, 7, 1, true);
                         break;
                     case 2:
-                        gameMap.setArrow(x + j, y, 7, 1, true);
+                        gameMap.setArrow(x + j, y, 7, 1);
                         break;
                     default:
                         gameMap.setArrow(x + j, y, 8, 1);

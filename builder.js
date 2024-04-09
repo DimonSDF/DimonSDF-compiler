@@ -27,7 +27,7 @@ export function buildDisk(bytes) {
 
         for (let i = 0; i < 4; ++i) {
             let byte = bytes_row.at(i);
-            let x = i * 4 + 6;
+            let x = i * 4 + 8;
 
             for (let j = 0; j < 4; ++j) {
                 switch (byte & 0b11) {

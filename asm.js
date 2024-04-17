@@ -132,7 +132,7 @@ const commands = [
 
     new Command("jc", [Args.A], 0x50),
     new Command("jc", [Args.B], 0x54),
-    new Command("ic", [Args.C], 0x58),
+    new Command("jc", [Args.C], 0x58),
     new Command("jc", [Args.D], 0x5C),
     new Command("js", [Args.A], 0x51),
     new Command("js", [Args.B], 0x55),

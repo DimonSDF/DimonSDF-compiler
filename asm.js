@@ -149,7 +149,7 @@ const commands = [
 
     new Command("jnc", [Args.A], 0x60),
     new Command("jnc", [Args.B], 0x64),
-    new Command("inc", [Args.C], 0x68),
+    new Command("jnc", [Args.C], 0x68),
     new Command("jnc", [Args.D], 0x6C),
     new Command("jns", [Args.A], 0x61),
     new Command("jns", [Args.B], 0x65),

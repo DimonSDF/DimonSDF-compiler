@@ -178,7 +178,7 @@ const commands = [
     new Command("adc", [Args.D, Args.C], 0x7B),
         new Command("inc", [Args.A], 0x70),
         new Command("inc", [Args.B], 0x75),
-        new Command("inc", [Args.C], 0x7A),
+        new Command("inc", [Args.C], 0x7a),
         new Command("inc", [Args.D], 0x7F), 
 
     new Command("out", [Args.A, Args.B], 0x84),
